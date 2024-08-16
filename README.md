@@ -12,12 +12,20 @@ P-Value Analysis and Histogram: Created a histogram of the p-values. Determined 
 False Discovery Rate Control with BH Procedure: Used the BH procedure to control the FDR with a q of 0.1 based on the p-values found. Estimated the number of “true” discoveries.
 Sensitivity Analysis of FDR Control: Applied the BH procedure at different q values and analyzed how the results changed. Discussed what this revealed about the robustness of the significant variables.
 Exploring Interaction Terms:
+
 a. Expanded the linear regression model by adding interaction terms. Created interaction terms between pairs of predictors (up to quadratic terms, i.e., terms of power two). Included both original predictors and their interaction terms in the model.
+
 b. Briefly explained why interaction terms might have been important in the context of predicting Estimated Shares Outstanding using fundamental financial metrics.
 Model Evaluation with Interaction Terms:
+
 c. Evaluated the performance of the new model with interaction terms. Compared it with the performance of the original model without interaction terms using appropriate metrics.
+
 d. Discussed any significant changes in the model's performance or the coefficients of the predictors.
+
 FDR Analysis with Interaction Terms:
+
 a. Created a histogram of the p-values for the new model, including interaction terms. Discussed any noticeable differences from the histogram created for the original model.
+
 b. Applied the Benjamini-Hochberg (BH) procedure to control the False Discovery Rate (FDR) with a q-value of 0.1. Identified how many significant predictors were found, including both main effects and interaction effects.
+
 c. Compared these results with those obtained from the original model. Discussed the impact of including interaction terms on the number of discoveries and the control of the FDR.
